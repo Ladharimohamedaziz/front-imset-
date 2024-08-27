@@ -1,0 +1,70 @@
+.containerx {
+    height: 100vh;   /* Equivalent to h-screen */
+    display: flex;   /* Equivalent to flex */
+}
+
+
+.responsive-container {
+    width: 14%;         /* Equivalent to w-[14%] */
+    padding: 1rem;      /* Equivalent to p-4 */
+    width: 20%;
+    background-color: #4f0000;
+}
+
+
+.flex-container {
+    display: flex;                /* Equivalent to flex */
+    align-items: center;          /* Equivalent to items-center */
+    justify-content: center;      /* Equivalent to justify-center */
+    gap: 0.5rem;                  /* Equivalent to gap-2 */
+}
+
+/* Large screens and larger */
+.responsive-box {
+    width: 86%;                   /* Equivalent to w-[86%] */
+    background-color: #F7F8FA;   /* Equivalent to bg-[#F7F8FA] */
+    overflow: scroll;            /* Equivalent to overflow-scroll */
+    display: flex;               /* Equivalent to flex */
+    flex-direction: column;      /* Equivalent to flex-col */
+}
+
+/* Medium screens and larger */
+@media (min-width: 768px) {
+
+    .responsive-container {
+        width: 8%;      /* Equivalent to md:w-[8%] */
+    }
+    .responsive-box {
+        width: 92%;              /* Equivalent to md:w-[92%] */
+    }
+}
+
+/* Large screens and larger */
+@media (min-width: 1024px) {
+    .responsive-container {
+        width: 16%;     /* Equivalent to lg:w-[16%] */
+    }
+    .responsive-box {
+        width: 84%;              /* Equivalent to lg:w-[84%] */
+    }
+    .flex-container {
+        justify-content: flex-start; /* Equivalent to lg:justify-start */
+    }
+}
+
+/* Extra-large screens and larger */
+@media (min-width: 1280px) {
+    .responsive-container {
+        width: 14%;     /* Equivalent to xl:w-[14%] */
+    }
+    .responsive-box {
+        width: 86%;              /* Equivalent to xl:w-[86%] */
+    }
+}
+
+.colorX{
+    /* background-color: #ffffff; */
+    /* color: rgba(255, 255, 255, 0.736); */
+    color: rgb(255, 255, 255);
+
+}

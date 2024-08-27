@@ -1,0 +1,52 @@
+.Mother{
+    padding: 1rem;           /* Equivalent to p-4 */
+    display: flex;           /* Equivalent to flex */
+    gap: 1rem;               /* Equivalent to gap-4 */
+    flex-direction: column;  /* Equivalent to flex-col */
+    /* background-color: blue; */
+}
+
+
+/* Default styles */
+.container1 {
+    width: 100%;             /* Equivalent to w-full */
+    display: flex;           /* Equivalent to flex */
+    flex-direction: column;  /* Equivalent to flex-col */
+    gap: 2rem;               /* Equivalent to gap-8 */
+    /* background-color: blueviolet; */
+}
+
+.container2 {
+    display: flex;                /* Equivalent to flex */
+    gap: 1rem;                    /* Equivalent to gap-4 */
+    justify-content: space-between; /* Equivalent to justify-between */
+    flex-wrap: wrap;              /* Equivalent to flex-wrap */
+    /* background-color: aqua; */
+}
+
+/* Default styles */
+.container3 {
+    display: flex;                /* Equivalent to flex */
+    gap: 1rem;                    /* Equivalent to gap-4 */
+    /* background-color: chartreuse; */
+}
+
+
+
+@media (min-width: 768px) {
+    .Mother {
+        flex-direction: row;  /* Equivalent to md:flex-row */
+    }
+}
+
+
+/* Large screen and larger */
+@media (min-width: 1024px) {
+    .container {
+        flex-direction: row;      /* Equivalent to lg:flex-row */
+    }
+    .container1 {
+        width: 66.6667%;     /* Equivalent to lg:w-2/3 */
+    }
+}
+

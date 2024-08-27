@@ -1,0 +1,14 @@
+.absolute-box {
+    position: absolute;         /* Equivalent to absolute */
+    top: -0.75rem;              /* Equivalent to -top-3 */
+    right: -0.75rem;            /* Equivalent to -right-3 */
+    width: 1.25rem;             /* Equivalent to w-5 */
+    height: 1.25rem;            /* Equivalent to h-5 */
+    display: flex;              /* Equivalent to flex */
+    align-items: center;        /* Equivalent to items-center */
+    justify-content: center;    /* Equivalent to justify-center */
+    background-color: #740000cd; /* Equivalent to bg-purple-500 */
+    color: #FFFFFF;             /* Equivalent to text-white */
+    border-radius: 9999px;      /* Equivalent to rounded-full */
+    font-size: 0.75rem;         /* Equivalent to text-xs */
+}
